@@ -723,7 +723,7 @@ the list, applying the appropriate function to each element:
                                        updateTermRHS*(TL, SM, VM) .
 
   ***(
-   Function for taking down bubbles.s
+   Function for taking down bubbles.
   )
   op parseBubbles : TermSet Module Module -> BubbleParsing .
   eq parseBubbles(TrS, TOP, FLAT) = parseBubbles(TrS, TOP, FLAT, none) .
